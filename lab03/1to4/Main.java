@@ -31,6 +31,9 @@ public class Main {
                     case "head":
                         head(iargs);
                         break;
+                    case "mkdir":
+                        mkdir(iargs);
+                        break;
                 }
 
             } catch (IOException exception) {
@@ -142,5 +145,17 @@ public class Main {
         }
     }
 
-    protected static void 
+    protected static void mkdir(String[] args) {
+        if (args[1] == null) {
+            System.out.println("Nincs eleg argumentum!");
+        } else if (new File(wd, args[1]).exists()){
+            System.out.println("No no mar van ilyen");
+        } else {
+            if (new File(wd, args[0]).mkdir()) {
+                System.out.println(args[1] + " letrehozasa sikerult");
+            } else {
+                System.out.println(args[1] + " nem jott letre :(");
+            }
+        }
+    }
 }
