@@ -8,10 +8,10 @@ public class Fifo {
     }
 
     synchronized public void put(String in) throws InterruptedException {
-        data.add(in);
         while (data.size() > 10) {
             wait();
         }
+        data.add(in);
         notify();
     }
 
