@@ -71,7 +71,6 @@ public class StudentFrame extends JFrame {
         @Override
         public void actionPerformed(ActionEvent e) {
             data.addStudent(nameField.getText(), neptunField.getText());
-            data.fireTableRowsInserted(data.students.size()-1, data.students.size()-1);
         }
     }
     
