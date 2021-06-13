@@ -1,0 +1,46 @@
+#+TITLE: Programozás alapjai 3 laborfeladatok
+
+Ez a repo tartalmazza BME mérnökinformatikus képzésén taított programozás alapjai 3 tárgy laborfeladatainak megoldásait.
+
+* A megoldásokról
+A megoldások (amik szerepelnek) nagyrészt elfogadott megoldások, és a 2020/2021-es őszi félévben születtek így a tárgy akkori állapotát reprezentálják.
+A megoldásokra viszont (értelemszerűen) nem tudok garanciát vállalni, *erősen ajánlott* a megoldásokat előbb saját tudásunkból megoldani, majd ha "minden remény veszett", akkor a megnézni őket.
+A feladatok leírása és az esetlegesen szükséges skeletonok és forrásfileok az ~exercises~ könyvtárban szerepelnek.
+A megoldások a minimum szinttől a megoldott IMSC-feladatokig terjednek.
+** Hiányzó feladatok
+*** TODO LAB1
+- nem szerepel a megoldása
+*** TODO LAB2
+- nem szerepel a megoldása
+*** [?] LAB3
+**** [X] Alapfeladatok
+**** [X] Opcionális feladatok
+**** [ ] IMSC feladatok
+*** [?] LAB4
+**** [X] Alapfeladatok
+**** [X] Opcionális feladatok
+**** [ ] IMSC feladatok
+*** [?] LAB5
+**** [X] Alapfeladatok
+**** [ ] Opcionális feladatok
+**** [ ] IMSC feladatok
+*** [?] LAB6
+**** [X] Alapfeladatok
+**** [ ] Opcionális feladatok
+**** [ ] IMSC feladatok
+*** [?] LAB7
+**** [X] Alapfeladatok
+**** [X] Opcionális feladatok
+**** [ ] IMSC feladatok
+*** [?] LAB8
+**** [ ] Alapfeladatok
+**** [ ] Opcionális feladatok
+**** [ ] IMSC feladatok
+*** [?] LAB9
+**** [X] Alapfeladatok
+**** [ ] Opcionális feladatok
+**** [ ] IMSC feladatok
+* Kontribúció
+Ha van megoldott feladatod, indíts egy PR-t és ha jó be fogom mergelni :smiley:
+* Legal
+Nem én vagyok a feladatok írója így ha a pdf-ek és forrásfileok hostolásával probléma van a palvolgyid@edu.bme.hu címre küldjenek e-mailt és eltávlítom a sértő fileokat.
